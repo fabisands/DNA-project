@@ -16,7 +16,7 @@ fig, ax = plt.subplots()
 plt.fill(x + [x[0]], y + [y[0]], color='silver', edgecolor='black', lw=2)
 
 # Add the letter "S" to the pentagon
-ax.text(0.5, 0.5, "S", color='black', fontsize=30, ha='center', va='center')
+ax.text(0.5, 0.5, "S", color='black', fontsize=20, ha='center', va='center')
 
 # Add a first line
 line_x = [0.4200, 0.3775]
@@ -68,7 +68,7 @@ ax.axis('off')
 plt.show()
 
 # Save the plot as an image to your PC
-# plt.savefig('Nucleotide_A.png', dpi=300, bbox_inches='tight')
+# plt.savefig('Nucleotide_T5.png', dpi=300, bbox_inches='tight')
 
 # Close the plot window
 plt.close()

@@ -20,7 +20,7 @@ y_mirror = [1.0 - yi for yi in y]
 plt.fill(x_mirror + [x_mirror[0]], y_mirror + [y_mirror[0]], color='silver', edgecolor='black', lw=2)
 
 # Add the letter "S" to the pentagon
-ax.text(0.5, 0.5, "S", color='black', fontsize=30, ha='center', va='center')
+ax.text(0.5, 0.5, "S", color='black', fontsize=20, ha='center', va='center')
 
 # Add a first line
 line_x = [0.5800, 0.6225]
@@ -54,11 +54,11 @@ line_y3 = [0.50, 0.35]
 plt.plot(line_x3, line_y3, color='black', lw=2)
 
 # Add a square with equal sides starting from (0.20, 0.35)
-square = Rectangle((0.04, 0.29), 0.160, 0.120, fill=True, color='cyan', edgecolor='black', lw=2)
+square = Rectangle((0.04, 0.29), 0.160, 0.120, fill=True, color='violet', edgecolor='black', lw=2)
 ax.add_patch(square)
 
 # Add the letter "A" to the square
-ax.text(0.12, 0.35, "C", color='black', fontsize=20, ha='center', va='center')
+ax.text(0.12, 0.35, "G", color='black', fontsize=20, ha='center', va='center')
 
 # Add four black lines around the square starting from (0.200, 0.400)
 line_x4 = [0.04, 0.20, 0.20, 0.04, 0.04]
@@ -72,7 +72,7 @@ ax.axis('off')
 plt.show()
 
 # Save the plot as an image to your PC
-# plt.savefig('Nucleotide_A_Mirrored_Left_Updated.png', dpi=300, bbox_inches='tight')
+# plt.savefig('Nucleotide_G3.png', dpi=300, bbox_inches='tight')
 
 # Close the plot window
 plt.close()

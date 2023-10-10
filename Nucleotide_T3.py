@@ -20,7 +20,7 @@ y_mirror = [1.0 - yi for yi in y]
 plt.fill(x_mirror + [x_mirror[0]], y_mirror + [y_mirror[0]], color='silver', edgecolor='black', lw=2)
 
 # Add the letter "S" to the pentagon
-ax.text(0.5, 0.5, "S", color='black', fontsize=30, ha='center', va='center')
+ax.text(0.5, 0.5, "S", color='black', fontsize=20, ha='center', va='center')
 
 # Add a first line
 line_x = [0.5800, 0.6225]
@@ -72,7 +72,7 @@ ax.axis('off')
 plt.show()
 
 # Save the plot as an image to your PC
-# plt.savefig('Nucleotide_A_Mirrored_Left_Updated.png', dpi=300, bbox_inches='tight')
+# plt.savefig('Nucleotide_T3.png', dpi=300, bbox_inches='tight')
 
 # Close the plot window
 plt.close()
